@@ -3,7 +3,7 @@
   "author": "stagas",
   "short": "stagas/animatrix",
   "description": "Create DOM Animations.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -54,10 +54,18 @@
     "@stagas/jest-node-exports-resolver",
     "bunzee",
     "decarg",
+    "everyday-types",
+    "everyday-utils",
+    "event-toolkit",
+    "proxy-toolkit",
     "pull-configs",
     "rollup-plugin-debug",
+    "to-fluent",
     "vite-open",
-    "wtr-plugin-vite"
+    "wtr-plugin-vite",
+    "deep-mutate-object",
+    "pick-omit",
+    "is-mobile-agent"
   ],
   "devDependencies": {
     "@n1kk/intspector": "1.0.2",
