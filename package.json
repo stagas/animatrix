@@ -3,7 +3,7 @@
   "author": "stagas",
   "short": "stagas/animatrix",
   "description": "Create DOM Animations.",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -49,33 +49,6 @@
     "prepush": "npm run lint && npm run test",
     "prepare": "husky install"
   },
-  "trustedDependencies": [
-    "@stagas/chalk",
-    "@stagas/jest-node-exports-resolver",
-    "annotate-code",
-    "apply-sourcemaps",
-    "bunzee",
-    "decarg",
-    "deep-mutate-object",
-    "dokio",
-    "each-dep",
-    "event-toolkit",
-    "everyday-node",
-    "everyday-types",
-    "everyday-utils",
-    "html-jsx",
-    "is-mobile-agent",
-    "pick-omit",
-    "proxy-toolkit",
-    "pull-configs",
-    "puppeteer-pretty-console",
-    "rollup-plugin-debug",
-    "run-in-vite",
-    "to-fluent",
-    "utr",
-    "vite-open",
-    "wtr-plugin-vite"
-  ],
   "devDependencies": {
     "@n1kk/intspector": "1.0.2",
     "@swc/cli": "0.1.57",
@@ -87,9 +60,8 @@
     "@types/webmidi": "2.0.6",
     "@typescript-eslint/eslint-plugin": "5.30.7",
     "@typescript-eslint/parser": "5.30.7",
-    "@web/test-runner": "0.13.30",
     "bunzee": "^1.0.0",
-    "dokio": "^0.0.1",
+    "dokio": "^0.0.2",
     "dprint": "0.30.3",
     "eslint": "8.20.0",
     "eslint-config-html-jsx": "^1.0.0",
@@ -101,12 +73,12 @@
     "rimraf": "3.0.2",
     "swcno": "0.1.1",
     "typescript": "4.7.3",
-    "utr": "^0.1.4",
-    "vite-open": "^2.4.0"
+    "utr": "^0.2.0",
+    "vite-open": "^3.0.1"
   },
   "dependencies": {
     "bezier-easing": "2.1.0",
     "event-toolkit": "^1.0.1",
-    "is-mobile-agent": "^0.0.1"
+    "is-mobile-agent": "^1.0.0"
   }
 }
