@@ -1,5 +1,5 @@
 <h1>
-animatrix <a href="https://npmjs.org/package/animatrix"><img src="https://img.shields.io/badge/npm-v1.0.0-F00.svg?colorA=000"/></a> <a href="src"><img src="https://img.shields.io/badge/loc-249-FFF.svg?colorA=000"/></a> <a href="https://cdn.jsdelivr.net/npm/animatrix@1.0.0/dist/animatrix.min.js"><img src="https://img.shields.io/badge/brotli-2.3K-333.svg?colorA=000"/></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F0B.svg?colorA=000"/></a>
+animatrix <a href="https://npmjs.org/package/animatrix"><img src="https://img.shields.io/badge/npm-v1.0.1-F00.svg?colorA=000"/></a> <a href="src"><img src="https://img.shields.io/badge/loc-339-FFF.svg?colorA=000"/></a> <a href="https://cdn.jsdelivr.net/npm/animatrix@1.0.1/dist/animatrix.min.js"><img src="https://img.shields.io/badge/brotli-2.3K-333.svg?colorA=000"/></a> <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-F0B.svg?colorA=000"/></a>
 </h1>
 
 <p></p>
@@ -22,7 +22,6 @@ Create DOM Animations.
 
 ## Credits
 
-- [bezier-easing](https://npmjs.org/package/bezier-easing) by [Gaëtan Renaudeau](https://github.com/gre) &ndash; BezierEasing provides Cubic Bezier Curve easing which generalizes easing functions exactly like in CSS Transitions.
 - [event-toolkit](https://npmjs.org/package/event-toolkit) by [stagas](https://github.com/stagas) &ndash; Toolkit for DOM events.
 - [is-mobile-agent](https://npmjs.org/package/is-mobile-agent) by [stagas](https://github.com/stagas) &ndash; Singleton boolean that is true when user agent is mobile or tablet.
 
