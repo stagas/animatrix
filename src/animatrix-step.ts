@@ -1,5 +1,5 @@
-import BezierEasing from 'bezier-easing'
 import { AnimSettings } from './animatrix-core'
+import BezierEasing from './vendor/bezier-easing'
 
 export type StepAnimationState = 'preparing' | 'running' | 'finished'
 
