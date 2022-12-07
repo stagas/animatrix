@@ -6,7 +6,7 @@ export type ManualAnimation<T = any> = {
   current: T
   last: T
   state: ManualAnimationState
-  stop: () => void
+  stop: (values: T) => T
   set: (values: T) => T
   update: (values: T) => T
 }
@@ -73,8 +73,10 @@ export const createManualAnimation = <T>(
     return current
   }
 
-  const stop = () => {
+  const stop = (values: T) => {
     state = 'finished'
+    current = last = from = values
+    return values
   }
 
   return {
